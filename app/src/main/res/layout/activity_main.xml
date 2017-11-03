@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fullscreen_content" >
+
+    <TableLayout
+        android:id="@+id/Grid"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#8b96b3"
+        android:keepScreenOn="true">
+
+        <LinearLayout android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn31"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+            <Button
+                android:id="@+id/btn32"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+            <Button
+                android:id="@+id/btn33"
+                android:layout_width="@dimen/PlayButton"
+                android:layout_height="@dimen/PlayButton"
+                android:text=""
+                android:textSize="@dimen/PlayTextSize" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_height="@dimen/LineHeight"
+            android:layout_weight="0.25"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textWarning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a new game!"
+                android:textSize="@dimen/PlayTextSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_height="@dimen/LineHeight"
+            android:layout_weight="0.25"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/btnNewGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Game"
+                android:textSize="@dimen/PlayTextSize" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
